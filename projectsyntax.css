@@ -1,0 +1,73 @@
+/* h1 properties */
+h1 { 
+    color: white;
+    font-size: 80;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-blend-mode:soft-light;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* Style the links in the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the color of links on hover */
+.topnav a.hover {
+  background-color: #ddd;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-blend-mode: soft-light;
+  color: white;
+}
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+/* h1 coloring when hover, active, visited  */
+a:hover{
+    color: darkgrey;
+}
+a:active{
+    color:grey;
+}
+a:visited{
+    color: white;
+}
+
+/* button features*/
+button {
+  position: center;
+  border-radius: 25px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: orangered;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+/* h2 properties */
+h2{
+    background-color: orangered;
+    font-family: serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+/* everthing in the footer properties */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orangered;
+}
